@@ -1,4 +1,4 @@
-##AI-Driven Recruitment Pipeline
+## AI-Driven Recruitment Pipeline
 
 This task is a complete solution created to use AI and data-driven insights to transform hiring procedures. 
 From the first candidate screening to the last selection, it effortlessly integrates to automate, optimise, and improve every step of the hiring process.
@@ -10,7 +10,7 @@ Data Visualisation: To link important data such as transcript quality, selection
 Prediciton: Use classification and logistic regression models in predictive analytics to forecast candidate success and enhance decision-making.
 Role-Specific Analysis: Personalised suggestions and analysis for different positions, guaranteeing equity and effectiveness in the recruiting procedure.
 
-###The pipeline consists of:
+### The pipeline consists of:
 
 Analysing data to determine how various features relate to one another is known as exploratory data analysis, or EDA.
 Model training is the process of using preprocessed data to train a machine learning model (such as XGBoost) to generate predictions.
@@ -18,7 +18,7 @@ Resume screening is the process of preprocessing interview transcripts and resum
 Prediction: Making predictions about new resumes and interview transcripts using the trained model.
 Emailing the Results: Emailing the designated recipient the prediction results.
 
-###The project cannot be completed without the following Python libraries:
+### The project cannot be completed without the following Python libraries:
 
 Pandas: For analysing and manipulating data.
 For numerical operations, use numpy.
@@ -29,7 +29,7 @@ For sending emails with attachments, use smtplib, email.
 To read and write Excel files, use openpyxl.
 pickle: To save and import learnt models.
 
-###Implementation: Feature extraction and preprocessing
+### Implementation: Feature extraction and preprocessing
 
 Relevant features are extracted from the interview transcripts and resumes by the Resume_screener.py script.
 
@@ -41,5 +41,5 @@ Predictions are made by loading the processed data and trained model into the Pr
 Exploratory Data Analysis: To examine and display the dataset, run the EDA.py script. This script prepares the data for training and aids in comprehending the connections between various features.
 
 
-###License
+### License
 This project is open-source and available under the MIT License.
